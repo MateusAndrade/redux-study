@@ -1,0 +1,26 @@
+.container{
+  background: #b3b3b3;
+  border: 2px solid #6b6b6b;
+  border-radius: 4px;
+  display: flex;
+  max-width: 400px;
+  min-height: 500px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+h1{
+  text-align: center;
+}
+
+.col{
+  flex-direction: column;
+}
+
+.row{
+  flex-direction: row;
+}
+
+.align-bottom{
+  align-items: flex-end;
+}

@@ -4,7 +4,7 @@ import './button.css';
 class Button extends Component {
   render(){
     return(
-      <button className="counter__button">{ this.props.label }</button>
+      <button onClick={this.props.onClick} className="counter__button">{ this.props.label }</button>
     )
   }
 }

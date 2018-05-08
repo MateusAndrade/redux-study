@@ -1,15 +1,17 @@
 .container{
-  background: #b3b3b3;
-  border: 2px solid #6b6b6b;
+  border: 2px solid #d4d4d4;
   border-radius: 4px;
   display: flex;
   max-width: 400px;
   min-height: 500px;
   margin: 0 auto;
-  padding: 10px;
+  margin-top: 20px;
+  padding: 10px 10px 0 10px;
+  justify-content: center;  
 }
 
 h1{
+  font-size: 8vh;
   text-align: center;
 }
 
@@ -19,8 +21,4 @@ h1{
 
 .row{
   flex-direction: row;
-}
-
-.align-bottom{
-  align-items: flex-end;
 }
